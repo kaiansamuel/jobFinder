@@ -76,3 +76,4 @@ app.get('/', (req, res) => {
 
 // jobs routes
 app.use('/jobs', require('./routes/jobs'));
+NPM_CONFIG_BUILD_FROM_SOURCE=true
